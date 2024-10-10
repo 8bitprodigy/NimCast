@@ -1,0 +1,7 @@
+*.nimcache/
+.nimcache/
+nimcache/
+nimblecache/
+htmldocs/
+src/create_wrapper
+*.cdi

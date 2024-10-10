@@ -1,0 +1,17 @@
+switch("path", "$projectDir/../src")
+
+switch("os", "any")
+switch("cpu", "sh4")
+switch("mm", "orc")
+switch("threads", "off")
+switch("stackTrace", "off")
+switch("lineTrace", "off")
+switch("define", "release")
+switch("define", "nimAllocPagesViaMalloc")
+switch("passC", getEnv("KOS_CFLAGS"))
+switch("passL", getEnv("KOS_LIB_PATHS") & getEnv("KOS_LIBS"))
+switch("nimcache", ".nimcache")
+
+switch("sh4.any.gcc.options.linker", "-static")
+switch("sh4.any.gcc.exe", getEnv("KOS_CC"))
+switch("sh4.any.gcc.linkerexe", getEnv("KOS_LD"))

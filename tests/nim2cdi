@@ -1,0 +1,4 @@
+#!/bin/sh
+nim c $1.nim
+mkdcdisc -e $1.elf -o $1.cdi
+rm $1
