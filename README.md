@@ -1,6 +1,8 @@
-# #NimCast
+# NimCast
 
 A Nim wrapper for [KallistiOS](https://github.com/KallistiOS/KallistiOS).
+
+Currently, it seems this may not be viable until Nim supports the SH-4 CPU.
 
 ---
 

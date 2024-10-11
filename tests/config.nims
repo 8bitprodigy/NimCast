@@ -1,7 +1,7 @@
 switch("path", "$projectDir/../src")
 
 switch("os", "any")
-switch("cpu", "sh4")
+switch("cpu", "mips")
 switch("mm", "orc")
 switch("threads", "off")
 switch("stackTrace", "off")
